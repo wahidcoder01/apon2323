@@ -1,0 +1,23 @@
+body{
+    background-image: url(apon\ img.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(22, 19, 19);
+}
+.but {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 12%;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(213, 224, 224);
+}
+.but:hover{
+    background-color: rgb(49, 5, 5);
+    color: rgb(10, 57, 92);
+}
